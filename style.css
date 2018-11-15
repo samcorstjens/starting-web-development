@@ -1,1 +1,124 @@
+body{
 
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+background: #d1d1e0;
+color:#737373;
+}
+
+#Scherm{
+  width: 60%;
+  max-width: 600px;
+
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns:600px 600px 600px/auto auto auto;
+  grid-row-gap: 30px;
+
+}
+
+#intro{
+padding:0px 15px 15px;
+padding-top: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: auto;
+background-color: #FFF;
+box-shadow: 0 0 5px 5px #ccc;
+}
+
+#intro img{
+  width: 50%;
+  height:auto;
+  max-width: 150px;
+  max-height: 150px;
+	-webkit-border-radius: 100px;
+	border-radius: 150px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #d1d1e0;
+
+}
+#intro h1{
+  color:#ff1a1a;
+}
+#intro a{
+  background: #ff1a1a;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding:15px 32px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 4px;
+}
+
+#contact {
+display: inline;
+background-color: #FFF;
+padding-right: 40px;
+box-shadow: 0 0 5px 5px #ccc;
+}
+
+#contact ul{
+  display: flex;
+     list-style-type:none;
+     justify-content: space-around;
+
+}
+
+#contact i{
+  font-size: 30px;
+
+}
+#contact a:link{
+  decoration: none;
+  text-decoration: none;
+  color:#d1d1e0;
+  text-align: center;
+  display: inline-block;
+}
+
+
+#contact a:visited {
+    color: #d1d1e0;
+}
+
+
+#contact a:hover {
+    color: #d1d1e0;
+}
+
+
+#contact a:active {
+    color: #d1d1e0;
+}
+
+#movies{
+  background-color: #FFF;
+  text-align: center;
+  padding-left: 20px;
+  padding-right:20px;
+  box-shadow: 0 0 5px 5px #ccc;
+}
+
+.films{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding-top: 50px;
+
+}
+
+.film img{
+float:left;
+height: 150px;
+padding-bottom: 20px;
+padding-right: 30px;
+}
+
+.his{
+  background: #d1d1e0;
+}
